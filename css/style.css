@@ -26,7 +26,7 @@ header {
     min-height: 590px; /*FIXME:*/
 }
 
-/*********** MAIN_CONTENT *************/
+/*********** MAIN_CONTENT Portfolio *************/
 
 ._card {
     height: 360px;
@@ -45,4 +45,9 @@ header {
     ._card {
         height: 260px;
     }
+}
+
+/*********** ABOUT *************/
+.about {
+    min-height: 200px; /*FIXME:*/
 }
