@@ -1,0 +1,47 @@
+/* DEBUG */
+.boxdebug {
+    background-color: darkgray;
+}
+
+/* GENERAL */
+.green {
+    background-color: #1abc9c;
+}
+
+.darkblue {
+    background-color: #2c3e50;
+}
+
+/* .text_align_cen {
+    text-align: center;
+} */
+
+/*********** HEADER ***********/
+header {
+    min-height: 90px; /*FIXME:*/
+}
+
+/*********** HERO *************/
+.hero {
+    min-height: 590px; /*FIXME:*/
+}
+
+/*********** MAIN_CONTENT *************/
+
+._card {
+    height: 360px;
+    border-radius: 10px;
+    background-color:red;
+}
+
+@media screen and (min-width: 768px) {
+    ._card {
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ._card {
+        height: 260px;
+    }
+}
