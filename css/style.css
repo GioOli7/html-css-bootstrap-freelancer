@@ -1,21 +1,17 @@
-/* DEBUG */
-.boxdebug {
-    background-color: darkgray;
-}
-
-/* GENERAL */
-.green {
+/* UTILITIES */
+._green {
     background-color: #1abc9c;
 }
 
-.darkblue {
+._darkblue {
     background-color: #2c3e50;
     color: white; /*FIXME:*/
 }
 
-/* .text_align_cen {
-    text-align: center;
-} */
+._lightblue {
+    background-color: #3a546d;
+    color: white; /*FIXME:*/
+}
 
 /*********** HEADER ***********/
 header {
@@ -28,7 +24,6 @@ header {
 }
 
 /*********** MAIN_CONTENT Portfolio *************/
-
 ._card {
     height: 360px;
     margin-bottom: 30px;
@@ -53,7 +48,7 @@ header {
     min-height: 200px; /*FIXME:*/
 }
 
-/*********** ABOUT *************/
-.header-top {
-    min-height: 200px; /*FIXME:*/
+/*********** FOOTER *************/
+.footer-top {
+    min-height: 100px; /*FIXME:*/
 }
