@@ -30,6 +30,7 @@ header {
 
 ._card {
     height: 360px;
+    margin-bottom: 30px;
     border-radius: 10px;
     background-color:red;
 }
