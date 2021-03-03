@@ -10,6 +10,7 @@
 
 .darkblue {
     background-color: #2c3e50;
+    color: white; /*FIXME:*/
 }
 
 /* .text_align_cen {
@@ -49,5 +50,10 @@ header {
 
 /*********** ABOUT *************/
 .about {
+    min-height: 200px; /*FIXME:*/
+}
+
+/*********** ABOUT *************/
+.header-top {
     min-height: 200px; /*FIXME:*/
 }
