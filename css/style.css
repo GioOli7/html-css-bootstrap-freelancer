@@ -14,9 +14,35 @@
 }
 
 /*********** HEADER ***********/
-header {
-    min-height: 90px; /*FIXME:*/
+
+/* Navbar */
+
+/* allineamento verticale */
+.go_navbar{
+    padding: 20px 0px;
 }
+
+/* adatto colore allo sfondo dell'header */
+.go_navbar .navbar-default{
+    background-color: transparent;
+    border: none;
+}
+
+.go_navbar .navbar {
+    margin-bottom: 0;
+}
+
+/* colore testo brand e link */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* peso font testo brand */
+.navbar-default .navbar-brand{
+    font-weight: 700;
+}
+
 
 /*********** HERO *************/
 .hero {
