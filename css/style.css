@@ -1,3 +1,13 @@
+/* GENERAL */
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+}
+
 /* UTILITIES */
 ._green {
     background-color: #1abc9c;
@@ -11,6 +21,17 @@
 ._lightblue {
     background-color: #3a546d;
     color: white; /*FIXME:*/
+}
+
+.txtWhite {
+    color: white;
+}
+
+.Hline {
+    border: 3px solid white;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 20%;
 }
 
 /*********** HEADER ***********/
@@ -38,16 +59,25 @@
     color: white;
 }
 
-/* peso font testo brand */
-.navbar-default .navbar-brand{
-    font-weight: 700;
-}
-
 
 /*********** HERO *************/
 .hero {
     min-height: 590px; /*FIXME:*/
 }
+
+.hero .hero-content {
+    padding: 40px 0;
+}
+
+.hero .hero-content img{
+    max-width: 220px;
+}
+
+/* dimensione icona */
+.fa, .fas {
+    font-size: 32px
+}
+
 
 /*********** MAIN_CONTENT Portfolio *************/
 ._card {
@@ -58,9 +88,18 @@
 }
 
 @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    
     ._card {
         height: 330px;
     }
+
 }
 
 @media screen and (min-width: 992px) {
