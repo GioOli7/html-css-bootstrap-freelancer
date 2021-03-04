@@ -27,12 +27,21 @@ h3 {
     color: white;
 }
 
+.mg-top30 {
+    margin-top: 30px;
+}
+
+.mg-bottom30 {
+    margin-bottom: 30px;
+}
+
 .Hline {
-    border: 3px solid white;
+    border: 3px solid;
     margin-bottom: 10px;
     display: inline-block;
     width: 20%;
 }
+
 
 /*********** HEADER ***********/
 
@@ -59,12 +68,16 @@ h3 {
     color: white;
 }
 
+/* FIXME: */
+/* editare stato hover links */
+
 
 /*********** HERO *************/
-.hero {
-    min-height: 590px; /*FIXME:*/
-}
+/* .hero {
+    min-height: 590px;
+} */
 
+/* padding top e bottom del contenuto hero */
 .hero .hero-content {
     padding: 40px 0;
 }
@@ -81,11 +94,14 @@ h3 {
 
 /*********** MAIN_CONTENT Portfolio *************/
 ._card {
-    height: 360px;
     margin-bottom: 30px;
-    border-radius: 10px;
-    background-color:red;
 }
+
+._card img {
+    border-radius: 10px;
+    margin: auto;
+}
+
 
 @media screen and (min-width: 768px) {
     h1 {
@@ -96,16 +112,10 @@ h3 {
         font-size: 24px;
     }
     
-    ._card {
-        height: 330px;
-    }
-
 }
 
 @media screen and (min-width: 992px) {
-    ._card {
-        height: 260px;
-    }
+    /*  */
 }
 
 /*********** ABOUT *************/
