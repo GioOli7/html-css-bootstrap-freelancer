@@ -18,9 +18,15 @@ h3 {
     font-size: 18px;
 }
 
-p {
-    /* font-weight: 700; */
+a {
+    color: white;
+    transition: color 0.3s;
 }
+
+a:hover {
+    color: #1abc9c;
+}
+
 
 /* UTILITIES */
 ._green {
@@ -31,12 +37,12 @@ p {
 
 ._darkblue {
     background-color: #2c3e50;
-    color: white; /*FIXME:*/
+    color: white;
 }
 
 ._lightblue {
     background-color: #3a546d;
-    color: white; /*FIXME:*/
+    color: white;
 }
 
 .txtWhite {
@@ -89,19 +95,14 @@ p {
     color: white;
 }
 
-/* TODO: */
-/* editare stato hover links */
+/* hover links */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
+}
 
 
 /*********** HERO *************/
-/* .hero {
-    min-height: 590px;
-} */
-
-/* padding top e bottom del contenuto hero */
-/* .hero .hero-content {
-    padding: 40px 0;
-} */
 
 .hero .hero-content img{
     max-width: 220px;
@@ -114,7 +115,6 @@ p {
     margin-right: 5px;
 }
 
-
 /*********** MAIN_CONTENT Portfolio *************/
 
 ._card img {
@@ -122,7 +122,106 @@ p {
     margin: auto;
 }
 
+/*********** ABOUT *************/
 
+.about .row p {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.mybutton {
+    margin-bottom: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* icon nel bottone */
+.about .btn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f381";
+    display: inline-block;
+    padding-right: 8px;
+    vertical-align: bottom;
+    font-weight: 900;
+}
+
+/* STILIZZARE LO STATO DI HOVER BUTTON TODO: */
+
+
+
+
+/*********** Contact me *************/
+.contactme {
+    color: #2c3e50;
+}
+
+/* Form style */
+.formsection input[type="text"],
+.formsection input[type="email"],
+.formsection input[type="tel"],
+.contactme .formsection textarea {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.contactme .formsection .form-group:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contactme .formsection .form-group label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contactme .formsection .form-group .form-control {
+    padding-left: 0;
+}
+
+.contactme .formsection .form-group .form-control:focus {
+    border-bottom: 1px solid black;
+}
+
+.contactme .container .row .formsection .mybutton:hover {
+    color: white;
+    background-color: #148b74;
+}
+
+/*********** FOOTER *************/
+
+
+.footer-top.paddingSection {
+    padding-bottom: 40px;
+}
+
+/* icone social */
+.footer-top .icons-footer .fab{
+    width: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.footer-top p {
+    color: #1abc9c
+}
+
+.footer-bottom {
+    height: 110px;
+}
+
+.footer-bottom .container .row p.copyright {
+    margin-top: 50px;
+}
+
+
+/* MEDIA QUERY */
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 50px;
@@ -150,90 +249,3 @@ p {
         margin-right: 25px;
     }
 }
-
-/*********** ABOUT *************/
-
-.about .row p {
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-
-.mybutton {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.about .btn::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f381";
-    display: inline-block;
-    padding-right: 8px;
-    vertical-align: bottom;
-    font-weight: 900;
-}
-
-/* STILIZZARE LO STATO DI HOVER BUTTON TODO: */
-
-
-
-/*********** Contact me *************/
-.contactme {
-    color: #2c3e50;
-}
-
-.formsection input[type="text"],
-.formsection input[type="email"],
-.formsection input[type="tel"],
-.contactme .formsection textarea {
-    border: 0;
-    box-shadow: none;
-    border-bottom: 1px solid #ddd;
-    border-radius: 0;
-}
-
-.contactme .formsection .form-group:not(:last-child) {
-    margin-bottom: 20px;
-}
-
-.contactme .formsection .form-group label {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.contactme .formsection .form-group .form-control {
-    padding-left: 0;
-}
-
-
-/*********** FOOTER *************/
-
-
-.footer-top.paddingSection {
-    padding-bottom: 40px;
-}
-
-.footer-top .icons-footer .fab{
-    width: 40px;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
-    height: 40px;
-    line-height: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-.footer-top p {
-    color: #1abc9c
-}
-
-.footer-bottom {
-    height: 110px;
-}
-
-.footer-bottom .container .row p.copyright {
-    margin-top: 50px;
-}
-
