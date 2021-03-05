@@ -1,4 +1,9 @@
 /* GENERAL */
+html {
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+}
+
 .fixed {
     position: fixed;
     z-index: 10;
