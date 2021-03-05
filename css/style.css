@@ -38,7 +38,7 @@ h3 {
 }
 
 .Hline {
-    border: 3px solid;
+    border: 2px solid;
     margin-bottom: 10px;
     display: inline-block;
     width: 20%;
@@ -46,7 +46,7 @@ h3 {
 
 .paddingSection {
     padding-top: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 
@@ -95,7 +95,9 @@ h3 {
 
 /* dimensione icona */
 .fa, .fas {
-    font-size: 32px
+    font-size: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -115,6 +117,11 @@ h3 {
     h3 {
         font-size: 24px;
     }
+
+    .fa, .fas {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     
 }
 
@@ -122,6 +129,11 @@ h3 {
     /*  */
     .hero .hero-content {
         padding: 30px 0;
+    }
+
+    .fa, .fas {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
@@ -138,6 +150,7 @@ h3 {
 
 .mybutton {
     margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 
