@@ -151,7 +151,7 @@
         </section>
 
         <!-- Contact me -->
-        <section class="contactme">
+        <section class="contactme paddingSection">
             <div class="container text-center">
                 <h2>Contact me</h2>
                 <div class="separator mg-top30 mg-bottom30">
@@ -159,10 +159,33 @@
                     <i class="fas fa-star"></i>
                     <div class="Hline"></div>
                 </div>
-                <div class="row">
+                <div class="row text-left">
                     <div class="col-xs-8 col-xs-offset-2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officia quidem soluta? Odit eius maiores et sequi quibusdam aperiam ab repellat dolorem illo veritatis pariatur, saepe fuga voluptas impedit mollitia.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis dicta tempora assumenda amet soluta alias ipsa accusantium voluptates incidunt, eum magni velit officiis recusandae accusamus, obcaecati, natus error suscipit?
+
+                        <!-- form name -->
+                        <div class="formsection">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Mario Rossi">
+                            </div>
+                            <!-- form email -->
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="email@mail.com">
+                            </div>
+                            <!-- form number -->
+                            <div class="form-group">
+                                <label for="phonenumber">Phone Number</label>
+                                <input type="tel" class="form-control" id="phonenumber" placeholder="340 1234567">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="I Like your Web developer"></textarea>
+                            </div>
+                            <div class="col-xs-12">
+                                <button class="btn btn-default _green mybutton pull-right" type="submit">Send</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
