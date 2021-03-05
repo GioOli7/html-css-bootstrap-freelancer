@@ -8,6 +8,10 @@ h3 {
     font-size: 18px;
 }
 
+p {
+    /* font-weight: 700; */
+}
+
 /* UTILITIES */
 ._green {
     background-color: #1abc9c;
@@ -138,11 +142,8 @@ h3 {
 }
 
 /*********** ABOUT *************/
-.about {
-    min-height: 200px; /*FIXME:*/
-}
 
-.about .row p{
+.about .row p {
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
@@ -197,6 +198,32 @@ h3 {
 
 
 /*********** FOOTER *************/
-.footer-top {
-    min-height: 100px; /*FIXME:*/
+
+
+.footer-top.paddingSection {
+    padding-bottom: 40px;
 }
+
+.footer-top .icons-footer .fab{
+    width: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.footer-top p {
+    color: #1abc9c
+}
+
+.footer-bottom {
+    height: 110px;
+}
+
+.footer-bottom .container .row p.copyright {
+    margin-top: 50px;
+}
+
