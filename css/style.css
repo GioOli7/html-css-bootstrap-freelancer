@@ -71,7 +71,7 @@ a:hover {
 
 .paddingSection {
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 
@@ -181,11 +181,12 @@ a:hover {
 
 .about .row p {
     font-size: 18px;
-    text-align: left;
+    text-align: left; /*  */
     margin-bottom: 30px;
 }
 
 .mybutton {
+    padding: 10px 30px;
     margin-bottom: 10px;
     font-size: 18px;
     transition: 0.3s;
@@ -196,7 +197,7 @@ a:hover {
     font-family: "Font Awesome 5 Free";
     content: "\f381";
     display: inline-block;
-    padding-right: 8px;
+    padding-right: 10px;
     vertical-align: bottom;
     font-weight: 900;
 }
@@ -243,7 +244,7 @@ a:hover {
 
 
 .footer-top.paddingSection {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 /* icone social */
@@ -259,7 +260,18 @@ a:hover {
 }
 
 .footer-top p {
-    color: #1abc9c
+    font-size: 18px;
+}
+
+.footer-top p span {
+    color: #1abc9c;
+}
+
+.footer-top h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 8px;
 }
 
 .footer-bottom {
@@ -285,7 +297,17 @@ a:hover {
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    /* resetto style da tablet in su */
+    .footer-top h3 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
     
+    .footer-top p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 992px) {
